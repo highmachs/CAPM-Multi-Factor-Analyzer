@@ -2,7 +2,7 @@
 
 A professional quantitative analysis platform for Capital Asset Pricing Model (CAPM) analysis, Fama-French multi-factor modeling, and portfolio optimization. Built with React frontend and FastAPI backend.
 
-![Status](https://img.shields.io/badge/Status-Production%2520Ready-green)
+![Status](https://img.shields.io/badge/Status-Production%25100Ready-green)
 ![React](https://img.shields.io/badge/React-18.2-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104-green)
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
