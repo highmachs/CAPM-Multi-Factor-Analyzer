@@ -75,18 +75,9 @@ Backend API: http://localhost:8000
 API Documentation: http://localhost:8000/docs
 
 📁 Project Structure
-Root/
-├── backend/
-│   ├── main.py              # FastAPI server
-│   ├── requirements.txt     # Python dependencies
-│   └── Dockerfile           # Container configuration
-└── frontend/
-    ├── src/
-    │   ├── components/      # React components
-    │   ├── App.jsx          # Main application
-    │   └── main.jsx         # React entry point
-    ├── package.json         # Node dependencies
-    └── vite.config.js       # Build configuration
+
+<img width="664" height="477" alt="image" src="https://github.com/user-attachments/assets/1813a742-62ca-4710-81f4-f72ad10dfafb" />
+
 
 ### Usage Guide
 
