@@ -2,10 +2,35 @@
 
 A professional quantitative analysis platform for Capital Asset Pricing Model (CAPM) analysis, Fama-French multi-factor modeling, and portfolio optimization. Built with React frontend and FastAPI backend.
 
-![Status](https://img.shields.io/badge/Status-Production%25100Ready-green)
-![React](https://img.shields.io/badge/React-18.2-blue)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.104-green)
-![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Status](https://img.shields.io/badge/Status-Production%20Ready-green)
+
+## 🧠 Tech Stack
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="30" height="30" style="background-color:white; border-radius:50%; padding:4px;"/>  
+  <b>Python</b> &nbsp; | &nbsp;
+
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="FastAPI" width="30" height="30" style="background-color:white; border-radius:50%; padding:4px;"/>  
+  <b>FastAPI</b> &nbsp; | &nbsp;
+
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="30" height="30" style="background-color:white; border-radius:50%; padding:4px;"/>  
+  <b>React</b> &nbsp; | &nbsp;
+
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vite/vite-original.svg" alt="Vite" width="30" height="30" style="background-color:white; border-radius:50%; padding:4px;"/>  
+  <b>Vite</b> &nbsp; | &nbsp;
+
+  <img src="https://raw.githubusercontent.com/tailwindlabs/tailwindcss.com/master/public/favicons/favicon-32x32.png" alt="Tailwind CSS" width="30" height="30" style="background-color:white; border-radius:50%; padding:4px;"/>  
+  <b>Tailwind CSS</b> &nbsp; | &nbsp;
+
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="30" height="30" style="background-color:white; border-radius:50%; padding:4px;"/>  
+  <b>JavaScript</b> &nbsp; | &nbsp;
+
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="30" height="30" style="background-color:white; border-radius:50%; padding:4px;"/>  
+  <b>Pandas</b>
+</p>
+
+**Tech Stack:**  
+Python (FastAPI, pandas, statsmodels, yfinance) • React (Vite) • Tailwind CSS • Recharts • Framer Motion • Lucide React
+
 
 
 ## 🌟 Features
@@ -42,7 +67,7 @@ A professional quantitative analysis platform for Capital Asset Pricing Model (C
 - Academic and industry standard methodologies  
 
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.11+  
@@ -110,16 +135,16 @@ GET /api/stock-details?ticker={symbol} - Stock fundamentals
 Example API Call
 curl "http://localhost:8000/api/capm?ticker=AAPL"
 
-## 🛠️ Technical Details
+##  Technical Details
 
-### 🧩 Backend Stack
+###  Backend Stack
 - **FastAPI** – Modern Python web framework  
 - **pandas / numpy** – Data analysis and numerical computing  
 - **yfinance** – Yahoo Finance market data integration  
 - **statsmodels** – Statistical modeling and regression  
 - **cachetools** – Performance caching and optimization  
 
-### 🎨 Frontend Stack
+###  Frontend Stack
 - **React 18** – Modern, component-based UI library  
 - **Vite** – Fast build tool and development server  
 - **Tailwind CSS** – Utility-first CSS framework for rapid design  
@@ -136,12 +161,12 @@ curl "http://localhost:8000/api/capm?ticker=AAPL"
 
 ## 🐛 Troubleshooting Guide
 
-### ⚙️ Backend Not Starting
+###  Backend Not Starting
 - Check Python version (**requires 3.11+**)  
 - Verify all dependencies are installed  
 - Ensure **port 8000** is not in use  
 
-### 🧱 Frontend Build Errors
+###  Frontend Build Errors
 - Clear and reinstall dependencies:
   ```rm -rf node_modules && npm install```
 Check Node.js version (requires 16+)
@@ -203,7 +228,7 @@ E(R) = Rf + β₁*(Rm - Rf) + β₂*SMB + β₃*HML + α
 - **HML:** High Minus Low (value factor)  
 - **α:** Alpha (excess return)  
 
-## 🆘 Support
+##  Support
 
 - **Documentation:** Check **PROGRESS.md** for detailed development history  
 - **Issues:** Use **GitHub Issues** for bug reports  
